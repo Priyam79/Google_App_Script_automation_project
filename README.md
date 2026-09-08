@@ -41,3 +41,9 @@ Data Store: Google Sheets
 Ingestion Layer: Google Forms
 
 Visualization: Looker Studio (formerly Data Studio)
+
+## Google Form Link: https://docs.google.com/forms/d/e/1FAIpQLSdwdiaAfuLyb_ZSg98pVKKhA2nXcDPhmaoApcBocG1bmOKkEw/viewform?usp=publish-editor  
+
+## Google App Script: https://gist.github.com/Priyam79
+
+The Google Sheet and dashboard created using Data Studio/Looker Studio has been uploaded as well.
