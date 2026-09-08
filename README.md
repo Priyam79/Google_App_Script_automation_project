@@ -12,15 +12,15 @@ In field engineering operations, site supervisors frequently submit material req
 
 2. Automated Processing Backend (Google Apps Script):
 
-Trigger Execution: Listens for On Form Submit events to process new entries instantly without manual intervention.
+* Trigger Execution: Listens for On Form Submit events to process new entries instantly without manual intervention.
 
-Dynamic Lookup & Validation: Cross-references submitted BOQ Codes against master allocation tables (BOQ_Master) to pull unit costs and historical expenditure.
+* Dynamic Lookup & Validation: Cross-references submitted BOQ Codes against master allocation tables (BOQ_Master) to pull unit costs and historical expenditure.
 
-Real-time Cost Calculations: Calculates total request value and evaluates cumulative spending against total budget allowances.
+* Real-time Cost Calculations: Calculates total request value and evaluates cumulative spending against total budget allowances.
 
-Automated Status Flagging: Dynamically writes calculated values (Unit Cost, Total Request Value, Remaining Budget) and assigns an instant operational status (Approved or Budget Exceeded - Flagged).
+* Automated Status Flagging: Dynamically writes calculated values (Unit Cost, Total Request Value, Remaining Budget) and assigns an instant operational status (Approved or Budget Exceeded - Flagged).
 
-Data Sanitization: Implements defensive coding logic to strip currency formatting and string artifacts, preventing data type mismatches during execution.
+* Data Sanitization: Implements defensive coding logic to strip currency formatting and string artifacts, preventing data type mismatches during execution.
 
 3. Executive Dashboard (Looker Studio): Connects to the processed sheet to visualize site-wise expenditure trends, top requisitioned materials, and budget variance metrics in real time.
 
